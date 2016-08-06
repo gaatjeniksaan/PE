@@ -12,7 +12,6 @@ for p in range(2, n+1):
         l.append(p)
 print("Done")
 
-print(l)
 il = 0 #index for looping through l (list with prime numbers)
 il2 = 0
 
@@ -24,15 +23,15 @@ il2 = 0
 
 
 
-# while True:
-#
-#
-#     if ((l2[il2] % l[il])).is_integer() == True:
-#         print('het lukt')
-#         break
-#     else:
-#         print('het lukt niet')
-#         il += 1
+while True:
+
+
+    if ((l2[il2] % l[il])).is_integer() == True:
+        print('het lukt')
+        break
+    else:
+        print('het lukt niet')
+        il += 1
 
 #
 # for i in range(len(l)):
@@ -43,6 +42,6 @@ il2 = 0
 #         index += 1
 
 
-# print(l2)
+print(l2)
 
 
